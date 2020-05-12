@@ -16,7 +16,7 @@
   "homepage": "https://henrique.tech/production",
   "scripts": {
     "deploy": "npm install",
-    "start": "node server",
+    "start": "npm install && node server",
     "postinstall": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
